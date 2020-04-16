@@ -1,4 +1,4 @@
-package com.example.calculator
+package com.example.calculadora
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -73,7 +73,7 @@ class MainActivity : AppCompatActivity() {
             btExpressao.text = ""
         }
         if (canClear) {
-            btExpressao.text = ""
+            btResultado.text = ""
             btExpressao.append(string)
         } else {
             btExpressao.append(btResultado.text)
